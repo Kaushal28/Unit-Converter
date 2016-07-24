@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity1">activity1</string>
+    <string name="title_activity_living">Living</string>
+    <string name="title_activity_science">Science</string>
+    <string name="title_activity_misc">Misc</string>
+    <string name="title_activity_basic">Basic</string>
+    <string name="title_activity_length_converter">LengthConverter</string>
+    <string name="title_activity_area_converter">AreaConverter</string>
+    <string name="title_activity_weight_converter">WeightConverter</string>
+    <string name="title_activity_volume_converter">VolumeConverter</string>
+    <string name="title_activity_temperature_converter">TemperatureConverter</string>
+    <string name="title_activity_time_converter">TimeConverter</string>
+    <string name="title_activity_speed_converter">SpeedConverter</string>
+    <string name="title_activity_pressure_converter">PressureConverter</string>
+    <string name="title_activity_force_converter">ForceConverter</string>
+    <string name="title_activity_work_converter">WorkConverter</string>
+    <string name="title_activity_power_converter">PowerConverter</string>
+    <string name="title_activity_angle_converter">AngleConverter</string>
+    <string name="title_activity_data_converter">DataConverter</string>
+    <string name="title_activity_fuel_converter">FuelConverter</string>
+    <string name="title_activity_cooking_converter">CookingConverter</string>
+    <string name="title_activity_display_length">DisplayLength</string>
+</resources>

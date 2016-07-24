@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kaushal.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity1"
+            android:label="@string/title_activity_activity1"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kaushal.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Living"
+            android:label="@string/title_activity_living"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kaushal.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Science"
+            android:label="@string/title_activity_science"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kaushal.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Misc"
+            android:label="@string/title_activity_misc"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kaushal.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Basic"
+            android:label="@string/title_activity_basic"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kaushal.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".LengthConverter"
+            android:label="@string/title_activity_length_converter"
+            android:parentActivityName=".Basic">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kaushal.myapplication.Basic" />
+        </activity>
+        <activity
+            android:name=".AreaConverter"
+            android:label="@string/title_activity_area_converter"
+            android:parentActivityName=".Basic">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kaushal.myapplication.Basic" />
+        </activity>
+        <activity
+            android:name=".WeightConverter"
+            android:label="@string/title_activity_weight_converter"
+            android:parentActivityName=".Basic">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kaushal.myapplication.Basic" />
+        </activity>
+        <activity
+            android:name=".VolumeConverter"
+            android:label="@string/title_activity_volume_converter"
+            android:parentActivityName=".Basic">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kaushal.myapplication.Basic" />
+        </activity>
+        <activity
+            android:name=".TemperatureConverter"
+            android:label="@string/title_activity_temperature_converter"
+            android:parentActivityName=".Living">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kaushal.myapplication.Living" />
+        </activity>
+        <activity
+            android:name=".TimeConverter"
+            android:label="@string/title_activity_time_converter"
+            android:parentActivityName=".Living">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kaushal.myapplication.Living" />
+        </activity>
+        <activity
+            android:name=".SpeedConverter"
+            android:label="@string/title_activity_speed_converter"
+            android:parentActivityName=".Living">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kaushal.myapplication.Living" />
+        </activity>
+        <activity
+            android:name=".PressureConverter"
+            android:label="@string/title_activity_pressure_converter"
+            android:parentActivityName=".Science">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kaushal.myapplication.Science" />
+        </activity>
+        <activity
+            android:name=".ForceConverter"
+            android:label="@string/title_activity_force_converter"
+            android:parentActivityName=".Science">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kaushal.myapplication.Science" />
+        </activity>
+        <activity
+            android:name=".WorkConverter"
+            android:label="@string/title_activity_work_converter"
+            android:parentActivityName=".Science">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kaushal.myapplication.Science" />
+        </activity>
+        <activity
+            android:name=".PowerConverter"
+            android:label="@string/title_activity_power_converter"
+            android:parentActivityName=".Science">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kaushal.myapplication.Science" />
+        </activity>
+        <activity
+            android:name=".AngleConverter"
+            android:label="@string/title_activity_angle_converter"
+            android:parentActivityName=".Misc">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kaushal.myapplication.Misc" />
+        </activity>
+        <activity
+            android:name=".DataConverter"
+            android:label="@string/title_activity_data_converter"
+            android:parentActivityName=".Misc">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kaushal.myapplication.Misc" />
+        </activity>
+        <activity
+            android:name=".FuelConverter"
+            android:label="@string/title_activity_fuel_converter"
+            android:parentActivityName=".Misc">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kaushal.myapplication.Misc" />
+        </activity>
+        <activity
+            android:name=".CookingConverter"
+            android:label="@string/title_activity_cooking_converter"
+            android:parentActivityName=".Misc">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kaushal.myapplication.Misc" />
+        </activity>
+    </application>
+
+</manifest>
